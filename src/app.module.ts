@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { env } from './config/env.config';
+import { env } from './common/config/env.config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { EmailsModule } from './modules/emails/emails.module';
 import { CoreModule } from './core/core.module';
