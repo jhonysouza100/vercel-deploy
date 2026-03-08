@@ -2,7 +2,7 @@ import { HttpException, HttpStatus, Injectable, NotFoundException } from '@nestj
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { TenantEntity } from '../entities/tenant.entity';
-import { hashPassword } from 'src/common/utils/bcrypt';
+import { hashPassword } from 'src/utils/bcrypt';
 import { CreateTenantDto, UpdateTenantDto } from '../dtos/tenant.dto';
 
 @Injectable()
